@@ -1,0 +1,1 @@
+cmd_/home/smirnoff/repos/modules/example1/hello.ko := ccache arm-eabi-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/smirnoff/repos/modules/example1/hello.ko /home/smirnoff/repos/modules/example1/hello.o /home/smirnoff/repos/modules/example1/hello.mod.o ;  true

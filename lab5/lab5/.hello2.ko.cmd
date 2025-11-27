@@ -1,0 +1,1 @@
+cmd_/home/smirnoff/repos/modules/lab5/hello2.ko := ccache arm-eabi-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/smirnoff/repos/modules/lab5/hello2.ko /home/smirnoff/repos/modules/lab5/hello2.o /home/smirnoff/repos/modules/lab5/hello2.mod.o ;  true
